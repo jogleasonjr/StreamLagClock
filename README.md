@@ -11,3 +11,5 @@ To install/run:
 4. Add this project's Debug exe in Steam as a non-Steam game
 5. Stream to your Steam Link and/or other PC
 6. Take one or more quick exposure photos of both screens simulaneously.
+
+![Screenshot](https://raw.githubusercontent.com/jogleasonjr/StreamLagClock/master/images/inGame.png)
