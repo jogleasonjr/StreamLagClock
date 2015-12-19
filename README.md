@@ -10,7 +10,7 @@ Screenshot:
 To install/run:
 
 1. Install Visual Studio 2015
-2. Install the (XNA 4.0 Refresh)[https://mxa.codeplex.com/releases/view/618279]. Follow setup instructions inside the downloaded .zip
+2. Install the [XNA 4.0 Refresh](https://mxa.codeplex.com/releases/view/618279). Follow setup instructions inside the downloaded .zip
 3. Build and run this project
 4. Add this project's Debug exe in Steam as a non-Steam game
 5. Stream to your Steam Link and/or other PC
