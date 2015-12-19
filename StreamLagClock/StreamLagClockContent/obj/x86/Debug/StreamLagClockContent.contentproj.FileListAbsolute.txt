@@ -1,0 +1,1 @@
+C:\git\StreamLagClock\StreamLagClock\StreamLagClockContent\obj\x86\Debug\StreamLagClockContent.contentprojResolveAssemblyReference.cache

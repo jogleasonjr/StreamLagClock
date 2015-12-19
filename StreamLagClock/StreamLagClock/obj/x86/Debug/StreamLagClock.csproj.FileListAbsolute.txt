@@ -1,0 +1,19 @@
+C:\git\StreamLagClock\StreamLagClock\StreamLagClock\bin\x86\Debug\StreamLagClock.exe
+C:\git\StreamLagClock\StreamLagClock\StreamLagClock\bin\x86\Debug\StreamLagClock.pdb
+C:\git\StreamLagClock\StreamLagClock\StreamLagClock\bin\x86\Debug\Microsoft.Xna.Framework.dll
+C:\git\StreamLagClock\StreamLagClock\StreamLagClock\bin\x86\Debug\Microsoft.Xna.Framework.Game.dll
+C:\git\StreamLagClock\StreamLagClock\StreamLagClock\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.dll
+C:\git\StreamLagClock\StreamLagClock\StreamLagClock\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.dll
+C:\git\StreamLagClock\StreamLagClock\StreamLagClock\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.dll
+C:\git\StreamLagClock\StreamLagClock\StreamLagClock\bin\x86\Debug\Microsoft.Xna.Framework.xml
+C:\git\StreamLagClock\StreamLagClock\StreamLagClock\bin\x86\Debug\Microsoft.Xna.Framework.Game.xml
+C:\git\StreamLagClock\StreamLagClock\StreamLagClock\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.xml
+C:\git\StreamLagClock\StreamLagClock\StreamLagClock\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.xml
+C:\git\StreamLagClock\StreamLagClock\StreamLagClock\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.xml
+C:\git\StreamLagClock\StreamLagClock\StreamLagClock\obj\x86\Debug\StreamLagClock.csprojResolveAssemblyReference.cache
+C:\git\StreamLagClock\StreamLagClock\StreamLagClock\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\git\StreamLagClock\StreamLagClock\StreamLagClock\obj\x86\Debug\StreamLagClock.exe
+C:\git\StreamLagClock\StreamLagClock\StreamLagClock\obj\x86\Debug\StreamLagClock.pdb
+C:\git\StreamLagClock\StreamLagClock\StreamLagClock\bin\x86\Debug\Content\Courier New.xnb
+C:\git\StreamLagClock\StreamLagClock\StreamLagClock\bin\x86\Debug\Content\Impact.xnb
+C:\git\StreamLagClock\StreamLagClock\StreamLagClock\bin\x86\Debug\Content\Consolas.xnb

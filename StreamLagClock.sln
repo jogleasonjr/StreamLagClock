@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamLagClock", "StreamLagClock\StreamLagClock\StreamLagClock.csproj", "{68282B56-641B-4241-B53D-452FCCF498FC}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "StreamLagClockContent", "StreamLagClock\StreamLagClockContent\StreamLagClockContent.contentproj", "{8EA7AF2F-D5CC-4E80-937D-69600786F3A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68282B56-641B-4241-B53D-452FCCF498FC}.Debug|x86.ActiveCfg = Debug|x86
+		{68282B56-641B-4241-B53D-452FCCF498FC}.Debug|x86.Build.0 = Debug|x86
+		{68282B56-641B-4241-B53D-452FCCF498FC}.Release|x86.ActiveCfg = Release|x86
+		{68282B56-641B-4241-B53D-452FCCF498FC}.Release|x86.Build.0 = Release|x86
+		{8EA7AF2F-D5CC-4E80-937D-69600786F3A7}.Debug|x86.ActiveCfg = Debug|x86
+		{8EA7AF2F-D5CC-4E80-937D-69600786F3A7}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
