@@ -1,7 +1,10 @@
 # Stream Lag Clock
 A very crudely implemented XNA synced frame counter and timer for net (effective) latency measurements. This is useful if you can photograph the screens of both the server and client at the same time.
 
+Action photo:
 ![Image](https://raw.githubusercontent.com/jogleasonjr/StreamLagClock/master/images/livingRoomSnap.png)
+
+Screenshot:
 ![Screenshot](https://raw.githubusercontent.com/jogleasonjr/StreamLagClock/master/images/inGame.png)
 
 To install/run:
