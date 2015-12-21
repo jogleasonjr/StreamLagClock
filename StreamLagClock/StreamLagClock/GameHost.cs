@@ -35,7 +35,15 @@ namespace StreamLagClock
 
             //maximize window
 #if SDL2
-            SDL2.SDL.SDL_MaximizeWindow(Window.Handle);
+            SDL.SDL_MaximizeWindow(Window.Handle);
+            /* Some platforms may like having ApplyChanges called after this.
+             * It depends on system window manager events though...
+             * The fun with replacing WinForms!
+             * -flibit
+             */
+            Rectangle bounds = Window.ClientBounds;
+            _graphics.PreferredBackBufferWidth = bounds.Width;
+            _graphics.PreferredBackBufferHeight = bounds.Height;
 #else
             var form = (Forms.Form)Forms.Form.FromHandle(Window.Handle);
             form.WindowState = Forms.FormWindowState.Maximized;
