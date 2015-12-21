@@ -4,11 +4,14 @@ using System.Linq;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Content;
-using Microsoft.Xna.Framework.GamerServices;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
+#if SDL2
+using SDL2;
+#else
 using Forms = System.Windows.Forms;
+#endif
 
 namespace StreamLagClock
 {
@@ -31,8 +34,20 @@ namespace StreamLagClock
             this.IsFixedTimeStep = false;
 
             //maximize window
+#if SDL2
+            SDL.SDL_MaximizeWindow(Window.Handle);
+            /* Some platforms may like having these updated with the window explicitly.
+             * It depends on system window manager events though...
+             * The fun with replacing WinForms!
+             * -flibit
+             */
+            Rectangle bounds = Window.ClientBounds;
+            _graphics.PreferredBackBufferWidth = bounds.Width;
+            _graphics.PreferredBackBufferHeight = bounds.Height;
+#else
             var form = (Forms.Form)Forms.Form.FromHandle(Window.Handle);
             form.WindowState = Forms.FormWindowState.Maximized;
+#endif
         }
 
 
