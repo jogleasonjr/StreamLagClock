@@ -36,7 +36,7 @@ namespace StreamLagClock
             //maximize window
 #if SDL2
             SDL.SDL_MaximizeWindow(Window.Handle);
-            /* Some platforms may like having ApplyChanges called after this.
+            /* Some platforms may like having these updated with the window explicitly.
              * It depends on system window manager events though...
              * The fun with replacing WinForms!
              * -flibit
